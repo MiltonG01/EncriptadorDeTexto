@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet"href="./style/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" href="./img/Lock.ico" type="imagen icono">
+</head>
+<body>
+    <header class="header">
+        <nav class="headerMenu">
+           
+            <p>Encriptador de texto</p>
+        </nav>
+    </header>
+    <main class="Contendido_encriptado">
+        <div class="Encriptadordetxt">
+            <textarea class="txtArea" name="textarea" id="txtarea" rows="10" cols="50" placeholder="Ingrese su texto aqui"></textarea>
+            <div class="terminos">
+                <p><span><img src="./img/alert.ico" width="15px" height="15px" alt="alert"></span> Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="botones">
+                <button onclick="Ecriptadortxt()" class="contenido__boton" id="Encriptador" >Encriptar</button>
+                <button onclick="Desencriptartxt()" class="contenido__boton" id="Desencriptar" >Desencriptar</button>
+            </div>
+            
+        </div>
+
+
+        <div class="desencriptadodetxt">
+            
+                <img class="img1" src="img/Muñeco.png" alt="Muñeco de texto" id="imgmuñeco" >
+            
+            
+            <div class="mensajeEncriptado" id="mensajetxtencriptado">
+                <h2 id="tituloMensaje">Ningun mensaje fue encontrado</h2>
+                <p id="mensajetxtaencriptar">Ingresa el texto que desees encriptar o desencriptar.</p>
+                
+            </div>
+
+            <div class="mostrarTXTecriptado" id="mostrarTXTecriptado">
+                <textarea class="txtArea2" name="textoencriptado" id="listaencriptado" rows="10" cols="50" class="txtlistaencriptado"></textarea>
+                
+            </div>
+            <div class="boton" id="boton">
+                <button onclick="copiartexto()" class="contenido__boton2" id="Copiartxt" >Copiar</button>
+            </div>
+            
+        </div>
+        
+
+        
+    </main>
+    
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
