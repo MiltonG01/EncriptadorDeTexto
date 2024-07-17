@@ -240,13 +240,13 @@
         width: 60%;
         height: 60%;
         left: 10%;
-        top: 5%;
+        top: 1%;
     }
 
   .terminos {
     width: 80%;
     left: 10%;
-    top: 65%;
+    top: 60%;
   }
 
   .botones {
@@ -256,12 +256,12 @@
   }
 
   .contenido__boton{
-    width: 30%;
+    width: 60%;
     border-radius: 16px;
   }
 
   .contenido__boton2 {
-    width: 30%;
+    width: 60%;
     border-radius: 16px;
   }
 
@@ -287,10 +287,10 @@
     }
 
     .mensajeEncriptado{
-      width: 100%;
+      width: 92%;
         
        
-        top: 20%;
+        top: 5%;
     }
 
     .img1{
